@@ -61,7 +61,7 @@ class DoctorWhereInput {
   @Field(() => StringFilter, {
     nullable: true,
   })
-  speciality?: StringFilter;
+  specialty?: StringFilter;
 
   @ApiProperty({
     required: false,

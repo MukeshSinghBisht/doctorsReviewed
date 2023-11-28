@@ -15,7 +15,7 @@ export const DoctorShow = (props: ShowProps): React.ReactElement => {
         <DateField source="createdAt" label="Created At" />
         <TextField label="ID" source="id" />
         <TextField label="name" source="name" />
-        <TextField label="speciality" source="speciality" />
+        <TextField label="specialty" source="specialty" />
         <TextField label="totalRatings" source="totalRatings" />
         <DateField source="updatedAt" label="Updated At" />
       </SimpleShowLayout>

@@ -22,7 +22,7 @@ const CREATE_INPUT = {
   createdAt: new Date(),
   id: "exampleId",
   name: "exampleName",
-  speciality: "exampleSpeciality",
+  specialty: "exampleSpecialty",
   totalRatings: 42,
   updatedAt: new Date(),
 };
@@ -31,7 +31,7 @@ const CREATE_RESULT = {
   createdAt: new Date(),
   id: "exampleId",
   name: "exampleName",
-  speciality: "exampleSpeciality",
+  specialty: "exampleSpecialty",
   totalRatings: 42,
   updatedAt: new Date(),
 };
@@ -41,7 +41,7 @@ const FIND_MANY_RESULT = [
     createdAt: new Date(),
     id: "exampleId",
     name: "exampleName",
-    speciality: "exampleSpeciality",
+    specialty: "exampleSpecialty",
     totalRatings: 42,
     updatedAt: new Date(),
   },
@@ -51,7 +51,7 @@ const FIND_ONE_RESULT = {
   createdAt: new Date(),
   id: "exampleId",
   name: "exampleName",
-  speciality: "exampleSpeciality",
+  specialty: "exampleSpecialty",
   totalRatings: 42,
   updatedAt: new Date(),
 };

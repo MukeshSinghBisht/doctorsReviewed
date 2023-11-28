@@ -72,7 +72,7 @@ class DoctorOrderByInput {
   @Field(() => SortOrder, {
     nullable: true,
   })
-  speciality?: SortOrder;
+  specialty?: SortOrder;
 
   @ApiProperty({
     required: false,

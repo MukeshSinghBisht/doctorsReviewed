@@ -47,7 +47,7 @@ class DoctorUpdateInput {
   @Field(() => String, {
     nullable: true,
   })
-  speciality?: string;
+  specialty?: string;
 
   @ApiProperty({
     required: false,

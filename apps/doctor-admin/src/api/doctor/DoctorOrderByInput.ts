@@ -5,7 +5,7 @@ export type DoctorOrderByInput = {
   createdAt?: SortOrder;
   id?: SortOrder;
   name?: SortOrder;
-  speciality?: SortOrder;
+  specialty?: SortOrder;
   totalRatings?: SortOrder;
   updatedAt?: SortOrder;
 };

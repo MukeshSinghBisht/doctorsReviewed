@@ -6,6 +6,6 @@ export type DoctorWhereInput = {
   averageRating?: DecimalNullableFilter;
   id?: StringFilter;
   name?: StringFilter;
-  speciality?: StringFilter;
+  specialty?: StringFilter;
   totalRatings?: IntNullableFilter;
 };

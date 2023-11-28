@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
-import { DoctorModule } from "./doctor/doctor.module";
 import { UserModule } from "./user/user.module";
+import { DoctorModule } from "./doctor/doctor.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -18,8 +18,8 @@ import { AuthModule } from "./auth/auth.module";
   imports: [
     ACLModule,
     AuthModule,
-    DoctorModule,
     UserModule,
+    DoctorModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,

@@ -5,7 +5,7 @@ export type Doctor = {
   createdAt: Date;
   id: string;
   name: string;
-  speciality: string;
+  specialty: string;
   totalRatings: number | null;
   updatedAt: Date;
 };

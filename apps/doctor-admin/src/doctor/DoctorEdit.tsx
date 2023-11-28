@@ -13,7 +13,7 @@ export const DoctorEdit = (props: EditProps): React.ReactElement => {
       <SimpleForm>
         <NumberInput label="averageRating" source="averageRating" />
         <TextInput label="name" source="name" />
-        <TextInput label="speciality" source="speciality" />
+        <TextInput label="specialty" source="specialty" />
         <NumberInput step={1} label="totalRatings" source="totalRatings" />
       </SimpleForm>
     </Edit>

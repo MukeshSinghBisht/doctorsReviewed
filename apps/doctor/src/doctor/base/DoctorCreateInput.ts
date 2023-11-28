@@ -41,7 +41,7 @@ class DoctorCreateInput {
   })
   @IsString()
   @Field(() => String)
-  speciality!: string;
+  specialty!: string;
 
   @ApiProperty({
     required: false,
